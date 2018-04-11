@@ -155,6 +155,7 @@ pullDownRefresh | 这个配置用于做下拉刷新功能。当设置为 true �
 pullUpLoad | 这个配置用于做上拉加载功能。当设置为 true 或者是一个 Object 的时候，可以开启上拉加载，可以配置离底部距离阈值（threshold）来决定开始加载的时机| Boolean or Object | { threshold: 0, txt: { more: '加载更多',noMore:'没有更多数据了'} } | false
 startY | 纵轴方向初始化位置 | Number |  | 0
 freeScroll | 有些场景我们需要支持横向和纵向同时滚动，而不仅限制在某个方向，这个时候我们只要设置 freeScroll 为 true 即可 | Boolean |  | false
+otherOptions | 自主添加一些选项 | Object | {}
 
 ### Slots:
 
