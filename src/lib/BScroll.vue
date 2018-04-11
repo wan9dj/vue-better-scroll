@@ -92,7 +92,7 @@ export default {
     },
     otherOptions: {
       type: Object,
-      default: {}
+      default: ()=>{}
     }
   },
   data() {
